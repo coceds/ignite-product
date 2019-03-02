@@ -1,0 +1,4 @@
+<persistence keyspace="ignitetest" table="products">
+    <keyPersistence class="java.lang.String" strategy="PRIMITIVE" column="uniq_id"/>
+    <valuePersistence class="capstone.product.dto.Product" strategy="POJO"/>
+</persistence>
